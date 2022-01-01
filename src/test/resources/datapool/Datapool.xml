@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datapool>
+		<agencia id="9999">
+			<numAgencia></numAgencia>
+			<produto></produto>
+			<conta></conta>
+			<operador></operador>
+			<senha></senha>
+			<operacao id="001">
+				<numOperacao></numOperacao>
+				<numConta></numConta>
+				<numOperacaoDestino></numOperacaoDestino>
+				<agenciaDestino></agenciaDestino>
+				<agenciaDestinoComDigito></agenciaDestinoComDigito>
+				<numContaDestino></numContaDestino>
+			</operacao>
+		</agencia>
+</datapool>

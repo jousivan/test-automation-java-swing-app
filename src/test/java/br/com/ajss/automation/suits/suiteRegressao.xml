@@ -1,0 +1,84 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suiteRegressao.xml" configfailurepolicy="continue">
+	<listeners>
+		<listener class-name="br.com.ajss.automation.listeners.Listener"/>
+	</listeners>
+	<test name="EfetuaDOCEletronicoTest" preserve-order="true">
+		<classes>
+			<class name="br.com.ajss.automation.tests.conta.EfetuaDOCEletronicoTest" />
+		</classes>
+    </test>
+    <test name="EfetuaRecebimentoGuiaDePenhorTest" preserve-order="true">
+		<classes>
+			<class name="br.com.ajss.automation.tests.ai.EfetuaRecebimentoGuiaDePenhorTest" />
+		</classes>
+    </test>
+	<test name="EmiteRecebeGuiaPenhorPEPTest" preserve-order="true">
+		<classes>
+			<class name="br.com.ajss.automation.tests.servicos.EmiteRecebeGuiaPenhorPEPTest" />
+		</classes>
+    </test>
+    <test name="EfetuaSaqueCartaoTest" preserve-order="true">
+		<classes>
+			<class name="br.com.ajss.automation.tests.conta.EfetuaSaqueCartaoTest" />
+		</classes>
+    </test>
+    <test name="EfetuaTedPag108ComDebitoDiferenteTitularTest" preserve-order="true">
+		<classes>
+			<class name="br.com.ajss.automation.tests.servicos.EfetuaTedPag108ComDebitoDiferenteTitularTest" />
+		</classes>
+    </test>
+    <test name="EfetuaSaqueGuiaRetiradaTest" preserve-order="true">
+		<classes>
+			<class name="br.com.ajss.automation.tests.ai.EfetuaSaqueGuiaRetiradaTest" />
+		</classes>
+    </test>
+    <test name="EfetuaSaqueViaChequeTest" preserve-order="true">
+		<classes>
+			<class name="br.com.ajss.automation.tests.ai.EfetuaSaqueViaChequeTest" />
+		</classes>
+    </test>
+    <test name="EfetuaCreditoAutorizadoTest" preserve-order="true">
+		<classes>
+		  	<class name="br.com.ajss.automation.tests.conta.EfetuaCreditoAutorizadoTest" />
+		</classes>
+    </test>
+    <test name="EfetuaLevantDepJudiciaisJusticaEstadOpe004e015e040Test" preserve-order="true">
+		<classes>
+			<class name="br.com.ajss.automation.tests.conta.EfetuaLevantDepJudiciaisJusticaEstadOpe004e015e040Test" />
+		</classes>
+    </test>
+    <!-- 
+    <test name="ProvisionamentoSaqueTest" preserve-order="true">
+		<classes>
+		  	<class name="ProvisionamentoSaqueTest"/>
+		</classes>
+    </test>
+    <test name="EfetuaDepositoMistoTest" preserve-order="true">
+		<classes>
+		  	<class name="EfetuaDepositoMistoTest" />
+		</classes>
+    </test>
+    <test name="EfetuaTedPag0121ComDebitoParaDepositoJudicialTest" preserve-order="true">
+		<classes>
+			<class name="EfetuaTedPag0121ComDebitoParaDepositoJudicialTest" />
+		</classes>
+    </test>
+    <test name="EfetuaRecebimentoConvenioCodBarrasTest" preserve-order="true">
+		<classes>
+			<class name="EfetuaRecebimentoConvenioCodBarrasTest" />
+		</classes>
+    </test>
+    <test name="EfetuaRecebimentoBloquetoCodigoBarrasTest" preserve-order="true">
+		<classes>
+			<class name="EfetuaRecebimentoBloquetoCodigoBarrasTest" />
+		</classes>
+    </test>
+    <test name="EfetuaTransferenciaDeValoresTest">
+		<classes>
+		  	<class name="EfetuaTransferenciaDeValoresTest" />
+		</classes>
+    </test>
+     -->
+</suite>

@@ -1,0 +1,12 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testng.xml" verbose="5">
+	<listeners>
+		<listener class-name="br.com.ajss.automation.listeners.Listener"/>
+	</listeners>
+    <test name="Tests"  preserve-order="true">
+		<classes>
+		  	<class name="la.foton.sisag.automation.tests.comercial.EfetuaEmissaoDeCartaoMultiploTest" />
+		</classes>
+    </test>
+</suite>

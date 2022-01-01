@@ -1,0 +1,12 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testng.xml" configfailurepolicy="continue">
+	<listeners>
+		<listener class-name="Listener"/>
+	</listeners>
+    <test name="Conta"  preserve-order="true">
+		<packages>
+			<package name="br.com.ajss.automation.tests.conta" />
+		</packages>
+    </test>
+</suite>

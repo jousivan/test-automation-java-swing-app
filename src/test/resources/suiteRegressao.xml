@@ -1,0 +1,12 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suiteRegressao.xml" configfailurepolicy="continue">
+	<listeners>
+		<listener class-name="br.com.ajss.automation.listeners.Listener"/>
+	</listeners>
+    <test name="EfetuaSaqueCartaoTest" preserve-order="true">
+		<classes>
+			<class name="br.com.ajss.automation.tests.conta.EfetuaSaqueCartaoTest" />
+		</classes>
+    </test>
+</suite>
